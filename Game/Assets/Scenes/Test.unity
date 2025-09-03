@@ -221,7 +221,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3201277382353415947, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
       propertyPath: m_Name
-      value: City
+      value: Seattle
       objectReference: {fileID: 0}
     - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
       propertyPath: city_name
@@ -229,11 +229,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
       propertyPath: sea_level
-      value: 40
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
       propertyPath: population
       value: 608660
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
+      propertyPath: temperature
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
+      propertyPath: energy_demand
+      value: 9157494
       objectReference: {fileID: 0}
     - target: {fileID: 5827749626472319749, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
       propertyPath: m_LocalPosition.x
