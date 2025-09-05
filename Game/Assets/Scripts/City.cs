@@ -11,8 +11,9 @@ public class City : MonoBehaviour
     public float energy_emission_per_unit = 0;
     public float transportation_demand = 0;
     public float transportation_emission_per_unit = 0;
-    public float agricultural_demand = 0;
-    public float agricultural_emission_per_unit = 0;
+    public float waste = 0;
+    public float recycle_rate = 0;
+    public float waste_emission_per_unit = 0;
 
     public float sea_level = 0;
     public float temperature = 0;
@@ -67,6 +68,6 @@ public class City : MonoBehaviour
     
     float CalculateAgriculturalEmmissions()
     {
-        return CalculateSectorEmmissions(agricultural_demand, agricultural_emission_per_unit);
+        return CalculateSectorEmmissions(waste, waste_emission_per_unit-(recycle_rate * waste_emission_per_unit));
     }
 }
