@@ -225,7 +225,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
       propertyPath: waste
-      value: 724469
+      value: 1.19
       objectReference: {fileID: 0}
     - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
       propertyPath: city_name
@@ -249,7 +249,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
       propertyPath: energy_demand
-      value: 9157494
+      value: 15.045
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
+      propertyPath: manual_transport_rate
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
+      propertyPath: public_transport_rate
+      value: 0.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
+      propertyPath: transportation_demand
+      value: 695.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
+      propertyPath: waste_emission_per_unit
+      value: 0.171
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
+      propertyPath: transportation_emission_per_unit
+      value: 31.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
+      propertyPath: public_transport_emission_per_unit
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
+      propertyPath: private_transport_emission_per_unit
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 5827749626472319749, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
       propertyPath: m_LocalPosition.x
