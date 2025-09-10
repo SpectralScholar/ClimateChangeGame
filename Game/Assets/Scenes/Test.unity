@@ -252,6 +252,10 @@ PrefabInstance:
       value: 15.045
       objectReference: {fileID: 0}
     - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
+      propertyPath: policies.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
       propertyPath: manual_transport_rate
       value: 0.1
       objectReference: {fileID: 0}
@@ -273,11 +277,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
       propertyPath: public_transport_emission_per_unit
-      value: 5
+      value: 0.00002833333
       objectReference: {fileID: 0}
     - target: {fileID: 5774251193321995621, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
       propertyPath: private_transport_emission_per_unit
-      value: 31
+      value: 0.00017
       objectReference: {fileID: 0}
     - target: {fileID: 5827749626472319749, guid: f8e18a7161273d845b3130397ea9a5e2, type: 3}
       propertyPath: m_LocalPosition.x
