@@ -45,7 +45,7 @@ public class City : MonoBehaviour
         }
     }
 
-    void ProccessTurn()
+    public void ProccessTurn()
     {
         CalculateEmmissions();
         Update_Policies();
