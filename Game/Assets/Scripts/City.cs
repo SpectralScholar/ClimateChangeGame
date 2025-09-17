@@ -95,6 +95,10 @@ public class City : MonoBehaviour
     {
         foreach (Policy policy in policies)
         {
+            if (!policy.UpdatePolicy())
+            {
+                continue;
+            }
             switch (policy.variable_affected)
             {
                 case "population":

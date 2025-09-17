@@ -24,5 +24,15 @@ public class Policy : MonoBehaviour
         // Per-frame logic here
     }
 
+    public bool UpdatePolicy()
+    {
+        months_to_update -= 1;
+        if (months_to_update <= 0)
+        {
+            months_to_update = max_months_to_update;
+            return true;
+        }
+        return false;
+    }
 
 }
